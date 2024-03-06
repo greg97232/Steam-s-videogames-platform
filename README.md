@@ -12,50 +12,61 @@ The ultimate goal of this project is to understand what factors affect the popul
 
 To carry out this project, you will have to adopt different levels of analysis. Your boss gave you a list of examples of questions that would be interesting:
 
-Analysis at the "macro" level
+# Analysis at the "macro" level
+- Which publisher has released the most games on Steam?
 
-Which publisher has released the most games on Steam?
+- What are the best rated games?
 
-What are the best rated games?
+- Are there years with more releases? Were there more or fewer game releases during the Covid, for example?
 
-Are there years with more releases? Were there more or fewer game releases during the Covid, for example?
+- How are the prizes distributed? Are there many games with a discount?
 
-How are the prizes distributed? Are there many games with a discount?
+- What are the most represented languages?
 
-What are the most represented languages?
+- Are there many games prohibited for children under 16/18?
 
-Are there many games prohibited for children under 16/18?
+# Genres analysis
+- What are the most represented genres?
 
-Genres analysis
+- Are there any genres that have a better positive/negative review ratio ? 
+- Do some publishers have favorite genres?
 
-What are the most represented genres?
+- What are the most lucrative genres?
 
-Are there any genres that have a better positive/negative review ratio?
+# Platform analysis
+- Are most games available on Windows/Mac/Linux instead?
 
-Do some publishers have favorite genres?
+- Do certain genres tend to be preferentially available on certain platforms?
 
-What are the most lucrative genres?
+- You're free to follow these guidelines, or to choose a different angle of analysis, as long as your analysis reveals relevant and useful information. 🤓
+  
+# Scope of this project 🖼️
+You'll have to use Databricks and PySpark to conduct this EDA. Particularly, you'll have to use [Databrick's visualisation too](https://docs.databricks.com/visualizations/index.html)l to create the visualizations.
 
-Platform analysis
+The dataset is available in our S3 bucket at the following url: 
+# s3://full-stack-bigdata-datasets/Big_Data/Project_Steam/steam_game_output.json. 
 
-Are most games available on Windows/Mac/Linux instead?
+# Helpers 🦮
+To help you achieve this project, here are a few tips that should help you:
 
-Do certain genres tend to be preferentially available on certain platforms?
+- To adopt different levels of analysis, it might be useful to create different dataframes.
 
-You're free to follow these guidelines, or to choose a different angle of analysis, as long as your analysis reveals relevant and useful information. 🤓
+- As the dataset is semi-structured with a nested schema, Pyspark's methods such as getField() and explode() may help you.
 
+- There are some text and date fields in this dataset: Pyspark offers utilitary functions to manipulate these types of data efficiently 💡
 
-# Clustering is your friend
-Clustering technics are a perfect fit for the job. Think about it, all the pickup locations can be gathered into different clusters. You can then use cluster coordinates to pin hot zones 😉  
-
-# Create maps with plotly
-Check out [Plotly](https://plotly.com/) documentation, you can create maps and populate them easily. Obviously, there are other libraries but this one should do the job pretty well.  
+- You can use agregate functions and groupBy to conduct segmented analysis.
 
 # Deliverable 📬
-To complete this project, your team should:
+To complete this project, you should deliver:
 
-Have a map with hot-zones using any python library ( or anything else).plotly  
-You should at least describe hot-zones per day of week.  
-Compare results with at least two unsupervised algorithms like KMeans and DBScan.  
-Your maps should look something like this:  
-![Clusters_uber_pickups](https://github.com/greg97232/Uber_Pickups/assets/38788237/7f705507-87db-410f-b56e-7841fc327be5)
+- One or several notebooks including data manipulation with PySpark and data visualization with Databrick's dashboarding tool.
+
+- To make sure the jury can view all the visualizations, please use the "publish" button on Databricks notebooks to create a public url where a copy of your notebook will be available.
+
+- While using the "publish" button, Databricks may tell you that your notebook's size exceeds the maximal size allowed. If this happens, just split your notebook in several notebooks.
+
+- Please copy-paste the link(s) to your published notebooks into your Github repo such that the jury can access it easily. 😌
+
+![image](https://github.com/greg97232/Steam-s-videogames-platform/assets/38788237/695443b6-17f3-4148-9eee-bcc0baeabc92)
+
