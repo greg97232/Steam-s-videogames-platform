@@ -43,7 +43,7 @@ To carry out this project, you will have to adopt different levels of analysis. 
 # Scope of this project 🖼️
 You'll have to use Databricks and PySpark to conduct this EDA. Particularly, you'll have to use [Databrick's visualisation too](https://docs.databricks.com/visualizations/index.html)l to create the visualizations.
 
-The dataset is available in our S3 bucket at the following url: 
+The dataset is available in our S3 bucket at the following url: 'br'
 `s3://full-stack-bigdata-datasets/Big_Data/Project_Steam/steam_game_output.json.`
 
 # Helpers 🦮
