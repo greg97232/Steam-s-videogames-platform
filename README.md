@@ -1,5 +1,5 @@
-# Uber Pickups
-_Projects unsupervised Machine Learning_
+![image](https://github.com/greg97232/Steam-s-videogames-platform/assets/38788237/6d67902c-3670-401a-ad1b-60165c6088e7)
+
 
 # Goals 🎯
 Uber already has data about pickups in major cities. Your objective is to create algorithms that will determine where are the hot-zones that drivers should be in. Therefore you will:
