@@ -67,6 +67,7 @@ To complete this project, you should deliver:
 - While using the "publish" button, Databricks may tell you that your notebook's size exceeds the maximal size allowed. If this happens, just split your notebook in several notebooks.
 
 - Please copy-paste the link(s) to your published notebooks into your Github repo such that the jury can access it easily. 😌
+  
 
 ![image](https://github.com/greg97232/Steam-s-videogames-platform/assets/38788237/695443b6-17f3-4148-9eee-bcc0baeabc92)
 
