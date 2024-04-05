@@ -56,17 +56,6 @@ To help you achieve this project, here are a few tips that should help you:
 - There are some text and date fields in this dataset: Pyspark offers utilitary functions to manipulate these types of data efficiently 💡
 
 - You can use agregate functions and groupBy to conduct segmented analysis.
-
-# Deliverable 📬
-To complete this project, you should deliver:
-
-- One or several notebooks including data manipulation with PySpark and data visualization with Databrick's dashboarding tool.
-
-- To make sure the jury can view all the visualizations, please use the "publish" button on Databricks notebooks to create a public url where a copy of your notebook will be available.
-
-- While using the "publish" button, Databricks may tell you that your notebook's size exceeds the maximal size allowed. If this happens, just split your notebook in several notebooks.
-
-- Please copy-paste the link(s) to your published notebooks into your Github repo such that the jury can access it easily. 😌
   
 
 ![image](https://github.com/greg97232/Steam-s-videogames-platform/assets/38788237/695443b6-17f3-4148-9eee-bcc0baeabc92)
