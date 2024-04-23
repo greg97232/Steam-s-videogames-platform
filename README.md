@@ -56,6 +56,9 @@ To help you achieve this project, here are a few tips that should help you:
 - There are some text and date fields in this dataset: Pyspark offers utilitary functions to manipulate these types of data efficiently 💡
 
 - You can use agregate functions and groupBy to conduct segmented analysis.
+
+  
+Databricks link : https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2253973363433296/471218053225022/6097059445333425/latest.html
   
 
 ![image](https://github.com/greg97232/Steam-s-videogames-platform/assets/38788237/695443b6-17f3-4148-9eee-bcc0baeabc92)
